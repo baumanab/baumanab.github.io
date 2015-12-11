@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "There's not a line here that rhymes with anything"
 published: true
 ---
