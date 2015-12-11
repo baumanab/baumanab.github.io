@@ -1,6 +1,6 @@
 # Site navigation links
 
-- title:
-  url:
-  excerpt:
-  image:
+- title: Portfolio
+  url: https://github.com/baumanab/Portfolio
+  excerpt: "Things I've done"
+  image: 400x250.gif
