@@ -156,19 +156,41 @@ end
  'adaboost__n_estimators': [5, 10, 30, 40, 50, 100, 150, 200],
  'reduce_dim__n_components': [0.95]}
 ~~~
- 
- {% highlight html linenos %}
-{% raw %}
-<nav class="pagination" role="navigation">
-    {% if page.previous %}
-        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
-    {% endif %}
-    {% if page.next %}
-        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
-    {% endif %}
-</nav><!-- /.pagination -->
-{% endraw %}
+
+{% highlight ruby %}
+module Jekyll
+  class TagIndex < Page
+    def initialize(site, base, dir, tag)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = 'index.html'
+      self.process(@name)
+      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
+      self.data['tag'] = tag
+      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
+      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
+      self.data['title'] = "#{tag_title_prefix}#{tag}"
+      self.data['description'] = "An archive of posts tagged #{tag}."
+    end
+  end
+end
 {% endhighlight %}
+
+{% highlight python %}
+{'adaboost__algorithm': ('SAMME', 'SAMME.R'),
+ 'adaboost__base_estimator': [DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+              max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+              min_samples_split=2, min_weight_fraction_leaf=0.0,
+              random_state=None, splitter='best')],
+ 'adaboost__learning_rate': [0.1, 0.5, 1, 1.5, 2, 2.5],
+ 'adaboost__n_estimators': [5, 10, 30, 40, 50, 100, 150, 200],
+ 'reduce_dim__n_components': [0.95]}
+{% endhighlight %}
+ 
+
+
+
 
 My final classifier consisted of this pipeline for local testing, where a tester.py modified for min/max feauture scaling was used for testing (tester_scale.py):
 
