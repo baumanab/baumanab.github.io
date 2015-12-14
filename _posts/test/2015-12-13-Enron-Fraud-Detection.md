@@ -53,21 +53,21 @@ The Enron data set is comprised of email and financial data (E + F data set) col
 - 18 of these points is labeled as a POI and 128 as non-POI
 - Each point/person is associated with 21 features (14 financial, 6 email, 1 labeled)
 - financial features: 
-- 
-~~~ python
+
+{% highlight %}
 ['salary', 'deferral_payments', 'total_payments', 'loan_advances', 'bonus', 
 'restricted_stock_deferred', 'deferred_income', 'total_stock_value', 'expenses', 
 'exercised_stock_options', 'other', 'long_term_incentive', 'restricted_stock', 
 'director_fees'] (Units = USD) 
-~~~
+{% endhighlight %}
 
 - email features: 
 
-~~~ python
+{% highlight %}
 ['to_messages', 'email_address', 'from_poi_to_this_person', 'from_messages', 
 'from_this_person_to_poi', 'poi', 
 'shared_receipt_with_poi'] # units = number of emails messages; except ‘email_address’, which is a text string
-~~~
+{% endhighlight %}
 
 - POI label: [‘poi’] (boolean, represented as integers)
 
