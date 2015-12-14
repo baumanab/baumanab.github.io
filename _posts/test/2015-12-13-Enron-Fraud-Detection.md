@@ -58,7 +58,7 @@ The Enron data set is comprised of email and financial data (E + F data set) col
 ['salary', 'deferral_payments', 'total_payments', 'loan_advances', 'bonus', 
 'restricted_stock_deferred', 'deferred_income', 'total_stock_value', 'expenses', 
 'exercised_stock_options', 'other', 'long_term_incentive', 'restricted_stock', 
-'director_fees'] (Units = USD) 
+'director_fees'] # (Units = USD) 
 {% endhighlight %}
 
 - email features: 
@@ -131,9 +131,6 @@ Realizing that adaboost was my front runner I continued to try PCA and k setting
  'reduce_dim__n_components': [0.95]}
 {% endhighlight %}
  
-
-
-
 
 My final classifier consisted of this pipeline for local testing, where a tester.py modified for min/max feauture scaling was used for testing (tester_scale.py):
 
