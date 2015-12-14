@@ -138,7 +138,7 @@ Pipeline(steps=[('pca', PCA(copy=True, n_components=0.95, whiten=False)),
 
 and a pipeline for tester.py (modified only to import sklearn.preprocessing):
 
-```python
+```
 Pipeline(steps=[('scale_features', MinMaxScaler(copy=True, feature_range=(0, 1))), 
 ('pca', PCA(copy=True, n_components=0.95, whiten=False)), 
 ('adaboost', Pipeline(steps=[('reduce_dim', PCA(copy=True, n_components=0.95, whiten=False)), ('adaboost', AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
