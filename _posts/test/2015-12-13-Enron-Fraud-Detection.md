@@ -135,7 +135,7 @@ module Jekyll
 end
 ~~~
 
-~~~ python
+~~~ ruby
 {'adaboost__algorithm': ('SAMME', 'SAMME.R'),
  'adaboost__base_estimator': [DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
               max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
@@ -144,7 +144,20 @@ end
  'adaboost__learning_rate': [0.1, 0.5, 1, 1.5, 2, 2.5],
  'adaboost__n_estimators': [5, 10, 30, 40, 50, 100, 150, 200],
  'reduce_dim__n_components': [0.95]}
- ~~~
+~~~
+ 
+ {% highlight html linenos %}
+{% raw %}
+<nav class="pagination" role="navigation">
+    {% if page.previous %}
+        <a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}">Previous article</a>
+    {% endif %}
+    {% if page.next %}
+        <a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}">Next article</a>
+    {% endif %}
+</nav><!-- /.pagination -->
+{% endraw %}
+{% endhighlight %}
 
 My final classifier consisted of this pipeline for local testing, where a tester.py modified for min/max feauture scaling was used for testing (tester_scale.py):
 
