@@ -53,19 +53,21 @@ The Enron data set is comprised of email and financial data (E + F data set) col
 - 18 of these points is labeled as a POI and 128 as non-POI
 - Each point/person is associated with 21 features (14 financial, 6 email, 1 labeled)
 - financial features: 
-```
+~~~ python
 ['salary', 'deferral_payments', 'total_payments', 'loan_advances', 'bonus', 
 'restricted_stock_deferred', 'deferred_income', 'total_stock_value', 'expenses', 
 'exercised_stock_options', 'other', 'long_term_incentive', 'restricted_stock', 
 'director_fees'] (Units = USD) 
-```
-- email features: 
 
-```
+- email features: 
+~~~
+
+~~~ python
 ['to_messages', 'email_address', 'from_poi_to_this_person', 'from_messages', 
 'from_this_person_to_poi', 'poi', 
 'shared_receipt_with_poi'] # units = number of emails messages; except ‘email_address’, which is a text string
-```
+~~~
+
 - POI label: [‘poi’] (boolean, represented as integers)
 
 #### Outliers ####
@@ -115,69 +117,9 @@ GaussianNB does not have parameters to tune.  The only “tuning” that can be 
 
 Realizing that adaboost was my front runner I continued to try PCA and k settings as mentioned above as well as a RandomForestClassifier as the base estimator.  Eventually it was clear that a combination of the 10 best features and PCA(n_components = .95) were my best transformer settings, and that the DecisonTreeBaseEstimator was outperforming the RandomForestClassifier as a base estimator.  At this point, I focused on tuning adaboost with GridSearchCV, using the following parameters:
 
-~~~ ruby
-module Jekyll
-  class TagIndex < Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
-~~~
 
-~~~ ruby
-{'adaboost__algorithm': ('SAMME', 'SAMME.R'),
- 'adaboost__base_estimator': [DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
-              max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
-              min_samples_split=2, min_weight_fraction_leaf=0.0,
-              random_state=None, splitter='best')],
- 'adaboost__learning_rate': [0.1, 0.5, 1, 1.5, 2, 2.5],
- 'adaboost__n_estimators': [5, 10, 30, 40, 50, 100, 150, 200],
- 'reduce_dim__n_components': [0.95]}
-~~~
 
-~~~ python
-{'adaboost__algorithm': ('SAMME', 'SAMME.R'),
- 'adaboost__base_estimator': [DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
-              max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
-              min_samples_split=2, min_weight_fraction_leaf=0.0,
-              random_state=None, splitter='best')],
- 'adaboost__learning_rate': [0.1, 0.5, 1, 1.5, 2, 2.5],
- 'adaboost__n_estimators': [5, 10, 30, 40, 50, 100, 150, 200],
- 'reduce_dim__n_components': [0.95]}
-~~~
-
-{% highlight ruby %}
-module Jekyll
-  class TagIndex < Page
-    def initialize(site, base, dir, tag)
-      @site = site
-      @base = base
-      @dir = dir
-      @name = 'index.html'
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
-      self.data['tag'] = tag
-      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
-      tag_title_suffix = site.config['tag_title_suffix'] || '&#8211;'
-      self.data['title'] = "#{tag_title_prefix}#{tag}"
-      self.data['description'] = "An archive of posts tagged #{tag}."
-    end
-  end
-end
-{% endhighlight %}
-
-{% highlight python %}
+{% highlight python linenos %}
 {'adaboost__algorithm': ('SAMME', 'SAMME.R'),
  'adaboost__base_estimator': [DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
               max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
@@ -194,21 +136,21 @@ end
 
 My final classifier consisted of this pipeline for local testing, where a tester.py modified for min/max feauture scaling was used for testing (tester_scale.py):
 
-```
+{% highlight python linenos %}
 Pipeline(steps=[('pca', PCA(copy=True, n_components=0.95, whiten=False)), 
 ('adaboost', Pipeline(steps=[('reduce_dim', PCA(copy=True, n_components=0.95, whiten=False)), 
 ('adaboost', AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
           n_estimators=5, random_state=None))]))])
-```
+{% endhighlight %}
 
 and a pipeline for tester.py (modified only to import sklearn.preprocessing):
 
-```
+{% highlight python linenos %}
 Pipeline(steps=[('scale_features', MinMaxScaler(copy=True, feature_range=(0, 1))), 
 ('pca', PCA(copy=True, n_components=0.95, whiten=False)), 
 ('adaboost', Pipeline(steps=[('reduce_dim', PCA(copy=True, n_components=0.95, whiten=False)), ('adaboost', AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
           n_estimators=5, random_state=None))]))])
-```
+{% endhighlight %}
 
 
 5.	What is validation, and what’s a classic mistake you can make if you do it wrong?  How did you validate your analysis?  [relevant rubric item: “validation strategy”]
