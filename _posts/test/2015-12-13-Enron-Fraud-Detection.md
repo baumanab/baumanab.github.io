@@ -3,11 +3,6 @@ layout: article
 title: Enron Fraud Detection with Supervised Classification
 categories: articles
 comments: true
-image:
-  teaser: Logo_de_Enron.png
-  credit: "Logo de Enron" by Enron - This vector image was created by converting the Encapsulated PostScript file available at Brands of the World (view • download).Remember not all content there is in general free, see Commons:Fair use for more.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing for more information.. Licensed under Public Domain via Commons - https://commons.wikimedia.org/wiki/File:Logo_de_Enron.svg#/media/File:Logo_de_Enron.svg
-  feature: 1200px-Enron_Complex.jpg
-  credit: "Enron Complex" by Alex - originally posted to Flickr as Enron Complex. Licensed under CC BY 2.0 via Commons - https://commons.wikimedia.org/wiki/File:Enron_Complex.jpg#/media/File:Enron_Complex.jpg
 published: true
 ---
 
