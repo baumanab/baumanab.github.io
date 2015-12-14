@@ -145,6 +145,17 @@ end
  'adaboost__n_estimators': [5, 10, 30, 40, 50, 100, 150, 200],
  'reduce_dim__n_components': [0.95]}
 ~~~
+
+~~~ python
+{'adaboost__algorithm': ('SAMME', 'SAMME.R'),
+ 'adaboost__base_estimator': [DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+              max_features=None, max_leaf_nodes=None, min_samples_leaf=1,
+              min_samples_split=2, min_weight_fraction_leaf=0.0,
+              random_state=None, splitter='best')],
+ 'adaboost__learning_rate': [0.1, 0.5, 1, 1.5, 2, 2.5],
+ 'adaboost__n_estimators': [5, 10, 30, 40, 50, 100, 150, 200],
+ 'reduce_dim__n_components': [0.95]}
+~~~
  
  {% highlight html linenos %}
 {% raw %}
