@@ -6,6 +6,7 @@ comments: true
 published: true
 ---
 
+
 Detecting Persons of Interest in the Enron Fraud Case with Machine Learning
 ===============================================================================================
 
@@ -192,4 +193,3 @@ This model has higher precision and lower recall, with a mid-range F1 score (sta
 -	http://orenov.github.io/mlproject.html
 
 -	http://en.wikipedia.org/wiki/Precision_and_recall
-
