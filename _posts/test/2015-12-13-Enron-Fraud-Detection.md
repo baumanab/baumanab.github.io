@@ -4,6 +4,7 @@ title: Enron Fraud Detection with Supervised Classification
 categories: articles
 comments: true
 published: true
+markdown: redcarpet
 image:
   teaser: Logo_de_Enron.png
   credit: Logo de Enron by Enron - This vector image was created by converting the Encapsulated PostScript file available at Brands   of the World
