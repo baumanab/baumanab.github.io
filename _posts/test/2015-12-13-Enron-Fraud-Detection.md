@@ -129,7 +129,6 @@ Realizing that adaboost was my front runner I continued to try PCA and k setting
 My final classifier consisted of this pipeline for local testing, where a tester.py modified for min/max feauture scaling was used for testing (tester_scale.py):
 
 ```
-
 Pipeline(steps=[('pca', PCA(copy=True, n_components=0.95, whiten=False)), 
 ('adaboost', Pipeline(steps=[('reduce_dim', PCA(copy=True, n_components=0.95, whiten=False)), 
 ('adaboost', AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None, learning_rate=2,
