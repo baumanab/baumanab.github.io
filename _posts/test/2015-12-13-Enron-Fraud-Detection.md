@@ -4,6 +4,9 @@ title: Enron Fraud Detection with Supervised Classification
 categories: articles
 comments: true
 published: true
+image:
+  teaser: Logo_de_Enron.png
+  feature: 1200px-Enron_Complex.jpg
 ---
 
 
