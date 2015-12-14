@@ -6,6 +6,7 @@ comments: true
 published: true
 image:
   teaser: Logo_de_Enron.png
+  credit: "Logo de Enron" by Enron - This vector image was created by converting the Encapsulated PostScript file available at Brands   of the World
   feature: 1200px-Enron_Complex.jpg
 ---
 
