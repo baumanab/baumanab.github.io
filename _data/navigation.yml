@@ -4,3 +4,18 @@
   url: https://github.com/baumanab/Portfolio
   excerpt: "Things I've done"
   image: 400x250.gif
+
+  - title: Posts
+    url: /articles/
+    excerpt: "Short Articles."
+    image: 400x250.gif
+
+- title: Articles
+  url: /articles/
+  excerpt: "Long Posts."
+  image: 400x250.gif
+
+- title: About
+  url: /about/
+  excerpt: "About Labhacker."
+  image: 400x250.gif
