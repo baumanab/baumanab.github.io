@@ -29,7 +29,7 @@ owner:
     ad-client:
     ad-slot:
   bio: gg
-  avatar: bio-photo.jpg # 160x160 px image for author byline
+  avatar: bio-photo_active.jpg # 160x160 px image for author byline
   disqus-shortname: labhacker
 
 
