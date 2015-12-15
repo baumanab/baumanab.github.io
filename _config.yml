@@ -29,7 +29,7 @@ owner:
     ad-client:
     ad-slot:
   bio: A data artisan
-  avatar: bio-photo_active.jpg # 160x160 px image for author byline
+  avatar: bio-photo_active_160.jpg # 160x160 px image for author byline
   disqus-shortname: labhacker
 
 
