@@ -22,13 +22,13 @@ gems:
 
 # Site owner
 owner:
-  name: gg
-  email: gg
+  name: Andrew Bauman
+  email:
   twitter:
   google:
     ad-client:
     ad-slot:
-  bio: gg
+  bio: A data artisan
   avatar: bio-photo_active.jpg # 160x160 px image for author byline
   disqus-shortname: labhacker
 
