@@ -1,8 +1,8 @@
 ---
 layout: article
 title: "About"
-date: 2015-12-02T09:44:20-04:00
-modified: 2015-12-27T14:56:44-04:00
+date: 2015-12-15T09:44:20-04:00
+modified:
 excerpt: "This is the Labhacker about page."
 image:
   feature:
