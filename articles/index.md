@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Articles"
-date: 2015-12-30T11:39:03-04:00
+date: 2015-12-15T11:39:03-04:00
 modified:
 excerpt: "These are some of my favorite things"
 tags: []
