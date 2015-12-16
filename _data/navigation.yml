@@ -5,10 +5,10 @@
   excerpt: "Things I've done"
   image: 400x250.gif
 
-  - title: Posts
-    url: /articles/
-    excerpt: "Short Articles."
-    image: 400x250.gif
+- title: Posts
+  url: /articles/
+  excerpt: "Short Articles."
+  image: 400x250.gif
 
 - title: Articles
   url: /articles/
