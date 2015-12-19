@@ -1,19 +1,19 @@
 # Site navigation links
 
 - title: Portfolio
-  url: https://github.com/baumanab/Portfolio
+  url: /portfolio/
   excerpt: "Things I've done"
-  image: tide_vis.png
+  image: tide_vis.PNG
 
 - title: Posts
   url: /posts/
   excerpt: "Short Articles."
-  image: 400x250.gif
+  image: posts.PNG
 
 - title: Articles
   url: /articles/
   excerpt: "Long Posts."
-  image: 400x250.gif
+  image: articles.PNG
 
 - title: About
   url: /about/
