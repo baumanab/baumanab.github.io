@@ -8,12 +8,12 @@
 - title: Posts
   url: /posts/
   excerpt: "Short Articles."
-  image: posts.PNG
+  image: balancing_rocks.JPG
 
 - title: Articles
   url: /articles/
   excerpt: "Long Posts."
-  image: articles.PNG
+  image: wizard_island.JPG
 
 - title: About
   url: /about/
