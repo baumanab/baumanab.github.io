@@ -16,6 +16,7 @@ image:
 
 
 
+
 # Seattle Crime!
 
 I recently attended my first [Open Seattle](http://openseattle.org/), hosted at [Socrata](https://www.socrata.com). There were a lot of great people there and interesting projects. While my main interests lie in health data and transportation data, one of the projects introduced that night was to help people in NW Seattle understand local crime data. This sounded like a lot of fun, plus Socrata and the [Open Data Network](http://www.opendatanetwork.com/) are like "data crack" to me, so really any excuse to analyze data is good enough for me. This is also a project close to home, since I live in one of the neighborhoods of interest.  After the meeting I signed up for [Next Door](https://nextdoor.com/city/seattle--wa/) and started trying to figure out an approach. Here is my strategy, most definitely a work in progress.  Hopefully a variety of people will be involved in the project who can bring their own ideas and perspectives to enrich or redirect the strategy below.
@@ -82,8 +83,24 @@ I recently attended my first [Open Seattle](http://openseattle.org/), hosted at 
   
   - [Predicting Urban Crime in Diverse Settings](https://econ.duke.edu/uploads/assets/dje/2008/Fritz.pdf):
   
+  - [Tableau Vis of North Green Lake Crime](https://public.tableau.com/profile/dave.smith5366#!/vizhome/NorthGreenlakeCrime/Dashboard1):
+  
   
   
   ### Selected Support Resources
   To meet our goals we need more than just crime data. At minimum it would be nice to have neighborhood boundary data, shapefiles, and demographic data.
   - TODO: insert resources
+
+### TODO: Brainstorming of Ideas of things we can provide
+- guiding principle should be tools or data packages that empower, enable action, and are maintainable.
+- Basic explanation of crimes in general in seattle
+- crimes by neighborhood
+- do any crimes stand out in a neighborhood
+- what crimes are occuring we can help prevent (e.g. mail theft, use lockboxes etc.)
+- a data package for city officials or neighborhood organizations
+- enhanced stats or visualizations to aid understanding about the data
+- a reporting tool or mechnaism to build a data set of crimes not being reported to police ("petty crimes") or suspicious activities for which police may not be able to respond
+- a mapping tool
+- an alert tool
+-
+- 
