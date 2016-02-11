@@ -15,6 +15,7 @@ image:
 
 
 
+
 # Seattle Crime!
 
 I recently attended my first [Open Seattle](http://openseattle.org/), hosted at [Socrata](https://www.socrata.com). There were a lot of great people there and interesting projects. While my main interests lie in health data and transportation data, one of the projects introduced that night was to help people in NW Seattle understand local crime data. This sounded like a lot of fun, plus Socrata and the [Open Data Network](http://www.opendatanetwork.com/) are like "data crack" to me, so really any excuse to analyze data is good enough for me. This is also a project close to home, since I live in one of the neighborhoods of interest.  After the meeting I signed up for [Next Door](https://nextdoor.com/city/seattle--wa/) and started trying to figure out an approach. Here is my strategy, most definitely a work in progress.  Hopefully a variety of people will be involved in the project who can bring their own ideas and perspectives to enrich or redirect the strategy below.
@@ -58,6 +59,7 @@ I recently attended my first [Open Seattle](http://openseattle.org/), hosted at 
 
   ### Selected Tools, Analyses, Visualizations, Applications, and Code
   There are a lot of analyses out there, but not all of them are relevant to our purposes.  Below are resources and examples found that are particularly relevant.
+  
   - [Trulia Crime Map](http://www.trulia.com/real_estate/Seattle-Washington/crime/): This an interactive crime map that has a heat map component for crime risk. It is built primarily from spotcrime.com data. The Seattle component of spotcrime.com is built from SPD data via some of the data resources above, which is accesible through the SODA API.....yada yada, I think you see where I am going with this. 
   
   - [Spot Crime Map of Broadview](http://spotcrime.com/wa/seattle/broadview): This is cool. It looks like it is built from publically available data and APIs. It has some key features which are nice, these include (1) a data stream from community reporting (you can register and then report crimes) (2) customizeable email alerts (3) maps bounded out by neighborhood. The downside is all the advertising and clunkiness of some UI aspects. This does seem like a good model for an open app.
