@@ -19,22 +19,37 @@ I recently attended my first [Open Seattle](http://openseattle.org/), hosted at 
 
 - **Define the customer and what they want:**
     + **The customer:**  The customer is a resident of the NW Seattle neighborhoods, specifically Greenlake, Greenwood, Phinney, Broadview, and Bitterlake. This includes me.
-    + **What do they want?**Ultimately people want less/no crime. Practically speaking I think people would like to be empowered and not feel helpless against crimes, ranging from petty package thefts and vandalism all they way up to violent crimes. For example, if people were to understand what crimes are occuring that are community preventable vs. what crimes are occuring the require police assistance, this could be helpful. From reading Next Door threads it sounds like people would really like to increase police resources in this area. One suggested way to do this was to report all crimes or to track unreported crimes. Maybe we could develop a tool for this or present one that already exists. 
-    
+    + **What do they want?**Ultimately people want less/no crime. Practically speaking I think people would like to be empowered and not feel helpless against crimes, ranging from petty package thefts and vandalism all they way up to violent crimes. For example, if people were to understand what crimes are occuring that are community preventable vs. what crimes are occuring the require police assistance, this could be helpful. From reading Next Door threads it sounds like people would really like to increase police resources in this area. One suggested way to do this was to report all crimes or to track unreported crimes. Maybe we could develop a tool for this or present one that already exists.
+
 
 - **Determine goals. Potential goals include:**  
     + Inform NW Seattle residents about available crime data resources and help them understand the data
     + Use the data to empower NW Seattle residents and enable action, such as more effective crime prevention or re-allocation of city resources.
     + Develop a persistent resource (e.g. a website or app) which will help continue and reinforce empowerment
-    
-    
+
+
 - **Determine tactical approach to achieve goals:**
   + How can we best present the data and resources (visualization types etc.)?
   + What is the best way to present the data (pub night, local library, website, musical, morse code)?
-  
-  
+
+
 - **Determine resources and methods:** I try never to reinvent the wheel. One hour in the library can save you a week in the lab.
   + What data resources are available?
   + What analyses have other people done on Seattle Crime data?
   + What analyses have other people done on crime data in other cities that we can apply?
   + What tools are currently available?
+
+  ### Selected Data Resources
+
+  - [police report incident API](https://dev.socrata.com/foundry/data.seattle.gov/y7pv-r3kh)
+  - [police report offense API](https://dev.socrata.com/foundry/data.seattle.gov/6thv-9ipt)
+  - [police 911 response API](https://dev.socrata.com/foundry/data.seattle.gov/pu5n-trf4)
+  - [crimes by precinct 2008 to present API](https://dev.socrata.com/foundry/data.seattle.gov/hapq-73pk)
+  - [crime stats by 1990 census tract 1996 to 2007 API](https://dev.socrata.com/foundry/data.seattle.gov/5r5q-9au5)
+  - [police department beats API](https://dev.socrata.com/foundry/data.seattle.gov/xjqu-9v63)
+  - [seattle zip codes API](https://dev.socrata.com/foundry/data.seattle.gov/5iir-m2en)
+  - [seattle block watch data](https://data.seattle.gov/Public-Safety/Block-Watch/n3gw-htbc)
+
+  ### Selected Example Analyses
+
+  ### Selected Applications and Visualizations
