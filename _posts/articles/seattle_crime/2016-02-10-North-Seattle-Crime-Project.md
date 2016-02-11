@@ -102,5 +102,3 @@ I recently attended my first [Open Seattle](http://openseattle.org/), hosted at 
 - a reporting tool or mechnaism to build a data set of crimes not being reported to police ("petty crimes") or suspicious activities for which police may not be able to respond
 - a mapping tool
 - an alert tool
--
-- 
