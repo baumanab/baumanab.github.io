@@ -14,6 +14,7 @@ image:
 ---
 
 
+
 # Seattle Crime!
 
 I recently attended my first [Open Seattle](http://openseattle.org/), hosted at [Socrata](https://www.socrata.com). There were a lot of great people there and interesting projects. While my main interests lie in health data and transportation data, one of the projects introduced that night was to help people in NW Seattle understand local crime data. This sounded like a lot of fun, plus Socrata and the [Open Data Network](http://www.opendatanetwork.com/) are like "data crack" to me, so really any excuse to analyze data is good enough for me. This is also a project close to home, since I live in one of the neighborhoods of interest.  After the meeting I signed up for [Next Door](https://nextdoor.com/city/seattle--wa/) and started trying to figure out an approach. Here is my strategy, most definitely a work in progress.  Hopefully a variety of people will be involved in the project who can bring their own ideas and perspectives to enrich or redirect the strategy below.
@@ -73,7 +74,7 @@ I recently attended my first [Open Seattle](http://openseattle.org/), hosted at 
    
   - [Plotting and Predicting Seattle Crime](http://www.racketracer.com/2015/03/02/predicting-and-plotting-crime-in-seattle/):
   
-  - [Mapping Seattle Crime Density](https://www.evernote.com/Home.action#n=8f6b187d-bde7-46db-b967-cc2bda9c220a&b=e78a1aed-5b75-4488-8da1-b17717921409&ses=4&sh=1&sds=5&):
+  - [Mapping Seattle Crime Density](http://www.racketracer.com/2015/03/14/mapping-crime-density-and-my-pre-crime-algorithm/):
   
   - [Most Frequented Crimes in SF by Neighborhood](http://www.racketracer.com/2015/10/19/most-frequented-crimes-in-san-francisco-normalized-by-neighborhood/):
   
