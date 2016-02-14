@@ -82,9 +82,9 @@ I recently attended my first [Open Seattle](http://openseattle.org/), hosted at 
   
   - [Most Frequented Crimes in SF by Neighborhood](http://www.racketracer.com/2015/10/19/most-frequented-crimes-in-san-francisco-normalized-by-neighborhood/):
   
-  - [Predicting Urban Crime in Diverse Settings](https://econ.duke.edu/uploads/assets/dje/2008/Fritz.pdf):
+  - [Predicting Urban Crime in Diverse Settings](https://econ.duke.edu/uploads/assets/dje/2008/Fritz.pdf): Academic document of an early effort at crime prediction using SPD crime data and census data. A model was built using Seattle data. A generalized model was then applied to Durham NC. This document contains some useful tools and approaches for crime model building.  
   
-  - [Tableau Vis of North Green Lake Crime](https://public.tableau.com/profile/dave.smith5366#!/vizhome/NorthGreenlakeCrime/Dashboard1):
+  - [Tableau Vis of North Green Lake Crime](https://public.tableau.com/profile/dave.smith5366#!/vizhome/NorthGreenlakeCrime/Dashboard1): A nice visualization of crime in Greenlake by a Greenlake resident.
   
   - [Block Watch Toolkit](http://www.seattle.gov/police/blockwatch/toolkit.htm):
   
@@ -100,12 +100,13 @@ I recently attended my first [Open Seattle](http://openseattle.org/), hosted at 
 
 ### TODO: Brainstorming of Ideas of things we can provide
 - guiding principle should be tools or data packages that empower, enable action, and are maintainable.
-- Basic explanation of crimes in general in seattle
+- Basic explanation of crimes in general in Seattle
 - crimes by neighborhood
-- do any crimes stand out in a neighborhood
+- Top 5 or crimes that stand out for each neighborhood
 - what crimes are occuring we can help prevent (e.g. mail theft, use lockboxes etc.)
 - a data package for city officials or neighborhood organizations
 - enhanced stats or visualizations to aid understanding about the data
 - a reporting tool or mechnaism to build a data set of crimes not being reported to police ("petty crimes") or suspicious activities for which police may not be able to respond
 - a mapping tool
 - an alert tool
+- a progress tool (are things getting better or worse by crime by neighborhood)
