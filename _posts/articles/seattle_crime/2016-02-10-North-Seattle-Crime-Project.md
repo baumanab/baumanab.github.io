@@ -80,7 +80,7 @@ I recently attended my first [Open Seattle](http://openseattle.org/), hosted at 
   
   - [Mapping Seattle Crime Density](http://www.racketracer.com/2015/03/14/mapping-crime-density-and-my-pre-crime-algorithm/):
   
-  - [Most Frequented Crimes in SF by Neighborhood](http://www.racketracer.com/2015/10/19/most-frequented-crimes-in-san-francisco-normalized-by-neighborhood/):
+  - [Most Frequented Crimes in SF by Neighborhood](http://www.racketracer.com/2015/10/19/most-frequented-crimes-in-san-francisco-normalized-by-neighborhood/): As you may have gleaned from the title, this resource contains tools and approaches for identifying and mapping the most frequent crimes in a specific geographic area, in this case SF neighborhoods. 
   
   - [Predicting Urban Crime in Diverse Settings](https://econ.duke.edu/uploads/assets/dje/2008/Fritz.pdf): Academic document of an early effort at crime prediction using SPD crime data and census data. A model was built using Seattle data. A generalized model was then applied to Durham NC. This document contains some useful tools and approaches for crime model building.  
   
