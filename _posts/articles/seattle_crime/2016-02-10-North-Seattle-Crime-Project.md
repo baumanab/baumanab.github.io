@@ -94,11 +94,12 @@ I recently attended my first [Open Seattle](http://openseattle.org/), hosted at 
   - [Addressing Neighborhood Issues](http://www.seattle.gov/police/blockwatch/neighborhood.htm):  The City of Seattle has a lot of great resources for Seattle residents, but there is so much information available that sometimes it can be overwhelming. This page brings together many of the frequent issues that neighborhoods have to deal with all in one spot.  
   
   
-  ### Selected Support Resources
-  To meet our goals we need more than just crime data. At minimum it would be nice to have neighborhood boundary data, shapefiles, and demographic data.
+### Selected Support Resources
+
+To meet our goals we need more than just crime data. At minimum it would be nice to have neighborhood boundary data, shapefiles, and demographic data.
   - TODO: insert resources
 
-### TODO: Brainstorming of Ideas of things we can provide
+### TODO: Brainstorming ideas of things we can provide
 - guiding principle should be tools or data packages that empower, enable action, and are maintainable.
 - Basic explanation of crimes in general in Seattle
 - crimes by neighborhood
