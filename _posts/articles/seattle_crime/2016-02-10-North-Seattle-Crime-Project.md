@@ -20,6 +20,7 @@ image:
 
 
 
+
 # Seattle Crime!
 
 I recently attended my first [Open Seattle](http://openseattle.org/), hosted at [Socrata](https://www.socrata.com). There were a lot of great people there and interesting projects. While my main interests lie in health data and transportation data, one of the projects introduced that night was to help people in NW Seattle understand local crime data. This sounded like a lot of fun, plus Socrata and the [Open Data Network](http://www.opendatanetwork.com/) are like "data crack" to me, so really any excuse to analyze data is good enough for me. This is also a project close to home, since I live in one of the neighborhoods of interest.  After the meeting I signed up for [Next Door](https://nextdoor.com/city/seattle--wa/) and started trying to figure out an approach. Here is my strategy, most definitely a work in progress.  Hopefully a variety of people will be involved in the project who can bring their own ideas and perspectives to enrich or redirect the strategy below.
@@ -74,11 +75,11 @@ I recently attended my first [Open Seattle](http://openseattle.org/), hosted at 
   
   - [SPD Crime Dashboard](http://www.seattle.gov/seattle-police-department/crime-data/crime-dashboard): A dashboard of crime stats which can be filtered by precinct, neighborhood (not all neighborhoods present), crime type etc. The dashboard is accompanied by a bar plot of count by month.
   
-  - [San Francisco Crime Data Analysis](https://s3.amazonaws.com/andrei-iusan-ud-dand/P4_-_San_Francisco_Crimes_-_Andrei_Iusan.html):
+  - [San Francisco Crime Data Analysis](https://s3.amazonaws.com/andrei-iusan-ud-dand/P4_-_San_Francisco_Crimes_-_Andrei_Iusan.html): Exploratory data analysis project by a fellow Udacity student. This is very well done and the associated repo has some very useful code for analyzing and mapping crime data.
    
-  - [Plotting and Predicting Seattle Crime](http://www.racketracer.com/2015/03/02/predicting-and-plotting-crime-in-seattle/):
+  - [Plotting and Predicting Seattle Crime](http://www.racketracer.com/2015/03/02/predicting-and-plotting-crime-in-seattle/): Self explanatory title, useful information here for plotting. The modeling is impressive too, just not as applicable for this project.
   
-  - [Mapping Seattle Crime Density](http://www.racketracer.com/2015/03/14/mapping-crime-density-and-my-pre-crime-algorithm/):
+  - [Mapping Seattle Crime Density](http://www.racketracer.com/2015/03/14/mapping-crime-density-and-my-pre-crime-algorithm/): This is related to the link above.
   
   - [Most Frequented Crimes in SF by Neighborhood](http://www.racketracer.com/2015/10/19/most-frequented-crimes-in-san-francisco-normalized-by-neighborhood/): As you may have gleaned from the title, this resource contains tools and approaches for identifying and mapping the most frequent crimes in a specific geographic area, in this case SF neighborhoods. 
   
@@ -86,12 +87,11 @@ I recently attended my first [Open Seattle](http://openseattle.org/), hosted at 
   
   - [Tableau Vis of North Green Lake Crime](https://public.tableau.com/profile/dave.smith5366#!/vizhome/NorthGreenlakeCrime/Dashboard1): A nice visualization of crime in Greenlake by a Greenlake resident.
   
-  - [Block Watch Toolkit](http://www.seattle.gov/police/blockwatch/toolkit.htm):
+  - [Block Watch Toolkit](http://www.seattle.gov/police/blockwatch/toolkit.htm): Great list of online resources for block watch groups and individuals interested in adddressing and preventing crime in their neighborhoods. This includes links to data as well as the online crime reporting tool
   
-  - [Community Online Reporting Program](http://www.seattle.gov/Police/report/default.htm):
+  - [Community Online Reporting Program](http://www.seattle.gov/Police/report/default.htm): Online to tool to report crimes.
   
-  - [Addressing Neighborhood Issues](http://www.seattle.gov/police/blockwatch/neighborhood.htm):
-  
+  - [Addressing Neighborhood Issues](http://www.seattle.gov/police/blockwatch/neighborhood.htm):  The City of Seattle has a lot of great resources for Seattle residents, but there is so much information available that sometimes it can be overwhelming. This page brings together many of the frequent issues that neighborhoods have to deal with all in one spot.  
   
   
   ### Selected Support Resources
