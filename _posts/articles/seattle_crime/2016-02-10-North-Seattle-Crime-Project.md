@@ -3,8 +3,7 @@ layout: article
 title: North Seattle Crime Project Intro
 modified: null
 categories: posts
-tags: 
-  - Seattle crime
+tags: [Seattle crime]
 comments: true
 published: true
 image: 
