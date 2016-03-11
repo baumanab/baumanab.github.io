@@ -1,5 +1,5 @@
 ---
-layout: Article
+layout: article
 title: Reverse Polish Notation Script
 modified:
 categories: posts
