@@ -14,7 +14,7 @@ image:
 ---
 Publishing my solution, future posts will build out with comments and walk through.
 
-```python
+{% highlight python %}
 
 def calc(expr):
     
@@ -35,4 +35,4 @@ def calc(expr):
     
     return 0
     
-    ```
+    {% endhighlight %}
