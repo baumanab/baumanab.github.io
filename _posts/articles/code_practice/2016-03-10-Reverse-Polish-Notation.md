@@ -15,6 +15,7 @@ image:
 Publishing my solution, future posts will build out with comments and walk through.
 
 ```python
+
 def calc(expr):
     
     """recieves an rpn string as an argument, returns float value
@@ -33,4 +34,5 @@ def calc(expr):
         return float(stack.pop())
     
     return 0
+    
     ```
