@@ -1,0 +1,12 @@
+---
+layout: Article
+title: Reverse Polish Notation Script
+modified:
+categories: posts
+excerpt: Python code to make calculations in RPN
+tags: [code_practice]
+image:
+  feature:
+  teaser:
+  thumb:
+---
