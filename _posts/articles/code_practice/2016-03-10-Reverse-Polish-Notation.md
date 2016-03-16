@@ -62,7 +62,7 @@ So, basically, to solve this coding problem, we should use a stack.  Since I am 
 
 ### Test Set:
 
-{% highlight python % linenos=table}
+{% highlight python %}
 
 Test.assert_equals(calc(""), 0, "Should work with empty string")
 Test.assert_equals(calc("1 2 3"), 3, "Should parse numbers")
@@ -76,7 +76,7 @@ Test.assert_equals(calc("4 2 /"), 2, "Should support division")
 {% endhighlight %}
 
 
-{% highlight python % linenos=table}
+{% highlight python %}
 
 def calc(expr):
     
