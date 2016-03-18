@@ -102,10 +102,10 @@ def calc(expr):
             if item in ops: # test if the current item is an operator
                 a,b = stack.pop(), stack.pop() # pop the last two items from the stack
                 result = eval('{}{}{}'.format(b, item, a)) # do the math
-                stack.append(str(result)) # put the result of the eval back into the stack
+                stack.append(str(result)) # convet result to string and put the result of the eval back into the stack
             else:
                 stack.append(item) # if not an operator put in the stack
-        return float(stack.pop())
+        return float(stack.pop()) # pop the result, convert it to a float, and return
     
     return 0
     
