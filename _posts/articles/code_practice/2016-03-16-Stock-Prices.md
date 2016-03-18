@@ -47,3 +47,12 @@ def get_max_profit(prices):
         profit.append(diff) # append the diff
     return max(profit) # return the max diff, where the max diff may be negative
 {% endhighlight %}
+
+### Testing
+Potential Test Cases:
+- Stock goes up during the day
+- Stock goes down throughout the day (negative max profit)
+- Stock does not change throughout the day (proit = 0)
+- Negative prices (prices should not be below zero)
+	+ at least two prices negative (can still return a valid profit), profit should be calculated, but assert a warning to the user
+    + < 2 prices are positive (can't return a valid profit), this data set shoudl be rejected
