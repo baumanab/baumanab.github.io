@@ -7,7 +7,7 @@ excerpt: Calculating profit from an array of stock prices
 tags: 
   - code_practice
 comments: true
-published: false
+published: true
 image: 
   feature: null
   teaser: null
