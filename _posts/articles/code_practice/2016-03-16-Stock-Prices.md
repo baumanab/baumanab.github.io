@@ -50,6 +50,7 @@ def get_max_profit(prices):
 
 ### Testing
 Potential Test Cases:
+
 - Stock goes up during the day
 - Stock goes down throughout the day (negative max profit)
 - Stock does not change throughout the day (proit = 0)
