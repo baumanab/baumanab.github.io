@@ -61,7 +61,7 @@ To solve this coding problem, we should use a stack.  Since I am using Python, I
 Here is what we need to do.
 1. Split the expression into it's characters
 2. Iterate over the characters and test if each character is an operator (+,-/,*)
-3. If the character is not an operator, keep iterating.  If the character is an operator, it's time for some heavy lifting.
+3. If the character is not an operator, put it in the stacck and keep iterating.  If the character is an operator, it's time for some heavy lifting.
 	+ pop twice (tail and tail - 1) and store the popped items
     + evaluate the popped items with the operator
     + append the result of 3b to the list (feed the result back to the stack, rhyme intended)
@@ -102,9 +102,9 @@ def calc(expr):
             if item in ops: # test if the current item is an operator
                 a,b = stack.pop(), stack.pop() # pop the last two items from the stack
                 result = eval('{}{}{}'.format(b, item, a)) # do the math
-                stack.append(str(result)) # put the result of the eval back into the                stack
+                stack.append(str(result)) # put the result of the eval back into the stack
             else:
-                stack.append(item)
+                stack.append(item) # if not an operator put in the stack
         return float(stack.pop())
     
     return 0
