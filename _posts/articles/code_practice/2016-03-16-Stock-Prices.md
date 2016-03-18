@@ -33,7 +33,7 @@ def get_max_profit(prices):
 
 
     """ Function accepts: a python list (1D array)
-    Function returns: The maximum positive difference or minimum negative difference possible, between a downstream element - an upstream element.
+    Function returns: The maximum positive difference or minimum negative difference possible, between a downstream element - an upstream element. """
     
     profit = list() # initialize an empty list
     for item in prices: # iterate through each list
