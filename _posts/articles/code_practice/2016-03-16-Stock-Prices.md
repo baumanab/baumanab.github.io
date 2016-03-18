@@ -38,8 +38,10 @@ def get_max_profit(prices):
     between a downstream element - an upstream element. """
     
     profit = list() # initialize an empty list
+    
     for item in prices: # iterate through each list
-        # pop off the tail of the list and get the difference between the popped value and the minimum upstream element
+        # pop off the tail of the list and get the difference 
+        # between the popped value and the minimum upstream element
         right, left_min = prices.pop(), min(prices)
         diff = right - left_min
         profit.append(diff) # append the diff
