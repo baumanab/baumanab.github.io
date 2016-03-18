@@ -57,3 +57,9 @@ Potential Test Cases:
 - Negative prices (prices should not be below zero)
 	+ at least two prices negative (can still return a valid profit), profit should be calculated, but assert a warning to the user
     + < 2 prices are positive (can't return a valid profit), this data set shoudl be rejected
+- Resource use (time and memory) for an entire day of data from 1 stock (480 values if stocks traded for 8 hours with a value every 1 minute)
+- I could scale the item above to multiple stocks etc. etc. to see performance in this manner, but honestly, if I were going to do that I would probably use some more advanced libraries or approaches (PANDAS, map-reduce, etc.).
+
+#### Tests
+
+
