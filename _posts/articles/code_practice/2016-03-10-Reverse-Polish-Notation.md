@@ -95,16 +95,14 @@ def calc(expr):
     """recieves an rpn string as an argument, returns float value
     https://en.wikipedia.org/wiki/Reverse_Polish_notation"""
     
-    if expr: # tests for the "trueness" of the object, empty = False, so an empty list
-    would bounce to the outermost return statement (return 0)
+    if expr: # tests for the "trueness" of the object, empty = False, so an empty list    would bounce to the outermost return statement (return 0)
         ops = list('+-/*')
         stack = list()
         for item in expr.split(): # split into characters
             if item in ops: # test if the current item is an operator
                 a,b = stack.pop(), stack.pop() # pop the last two items from the stack
                 result = eval('{}{}{}'.format(b, item, a)) # do the math
-                stack.append(str(result)) # put the result of the eval back into the
-                stack
+                stack.append(str(result)) # put the result of the eval back into the                stack
             else:
                 stack.append(item)
         return float(stack.pop())
