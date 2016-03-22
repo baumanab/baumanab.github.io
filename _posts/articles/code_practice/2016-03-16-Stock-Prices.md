@@ -15,6 +15,7 @@ image:
 ---
 
 
+
 This is a fun and free example problem I found on [Interview Cake](https://www.interviewcake.com/). If you haven't been to that site, I would encourage you to check it out. Each problem has an interactive feature which reveals hints as you need them. The key hint for this problem, for me, was to think about how you would solve this by hand. This seems obvious to me now, but sometimes I get so caught up in doing something on a computer, I forget that I used to solve problems with a pen and paper, so I did this with a very simple case, and it was pretty straight forward from there.
 
 **Scenario:** is that you are provided with a 1D array where the indices are in minutes past trade opening time and the values are the price of a particular stock, for each minute.
@@ -105,16 +106,13 @@ def get_max_profit(prices):
     
     return 'At least two values required to calculate maximum profit.'
     
-    {% endhighlight %}
+   {% endhighlight %}
     
-    **Results:**
+   **Results:**
+    
     {% highlight python %} 
 
 In [31]: doctest.testmod()
 Out[31]: TestResults(failed=0, attempted=5)
 
 {% endhighlight %}
-
-
-
-
