@@ -1,4 +1,4 @@
-﻿---
+---
 layout: article
 title: Code Practice Product of 1D Array Except at Index
 modified: {}
